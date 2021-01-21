@@ -1,0 +1,25 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "My personal website created with github api",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass scss -o webroot/css",
+    "scss:watch": "npm run scss && node-sass scss -w -o webroot/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiaraha-funny/personal_website.git"
+  },
+  "author": "Peta Jeannie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tiaraha-funny/personal_website/issues"
+  },
+  "homepage": "https://github.com/Tiaraha-funny/personal_website#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
